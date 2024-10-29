@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Side Panel Hot Reload",
+  "version": "1.0",
+  "description": "Chrome extension with side panel and hot-reload support.",
+  "permissions": ["sidePanel"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "src/panel.html"
+  }
+}

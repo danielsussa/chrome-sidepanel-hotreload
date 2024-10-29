@@ -1,0 +1,16 @@
+{
+  "name": "chrome-sidepanel-hotreload",
+  "version": "1.0.0",
+  "description": "Developing a Chrome side panel extension with hot reload requires some creativity due to Chrome’s restrictions on accessing localhost directly. In this tutorial, we’ll use the Node.js fs module to watch files in our project folder for changes and then trigger a hot reload in the Chrome side panel extension.",
+  "main": "background.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
